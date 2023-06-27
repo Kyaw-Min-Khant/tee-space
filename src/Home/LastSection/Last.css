@@ -1,0 +1,43 @@
+.splide .splide__pagination {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.splide .splide__pagination__page {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000000;
+  transition: 0.3s all ease-in-out;
+}
+
+.splide .splide__pagination__page.is-active {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.last_img_shadow__custom{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.media_icon{
+  opacity: 0;
+  transition: .3s all ease-in-out;
+}
+
+.media_text{
+  opacity: 1;
+  transition: .3s all ease-in-out;
+}
+
+.media_container:hover .media_icon{
+  opacity: 1;
+}
+
+.media_container:hover .media_text{
+  opacity: 0;
+}

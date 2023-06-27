@@ -1,0 +1,45 @@
+.first-img:hover .first-img-hover {
+  display: none;
+  transition: transform 0.5s;
+  opacity: 0;
+}
+.first-img-hover {
+  display: block;
+  z-index: 100;
+}
+.second-img-hover {
+  display: none;
+  transition: transform 0.5s;
+  opacity: 0overflow-hidden;
+}
+.first-img:hover .second-img-hover {
+  display: block;
+  opacity: 1;
+}
+.icon-hover {
+  transform: translateY(0);
+  transition: all 1s linear;
+  opacity: 0;
+}
+.img-hover:hover .icon-hover {
+  display: block;
+  opacity: 1;
+  transition: all 0.3s linear;
+}
+.card:hover {
+  transform: scale(1.009);
+  transition: all 1s linear;
+}
+
+.card:hover .icon-hover {
+  display: block;
+  transform: translateY(-20px);
+  opacity: 1;
+  transition: all 0.3s linear;
+}
+.card2:hover .icon-hover {
+  display: block;
+  transform: translateY(-20px);
+  opacity: 1;
+  transition: all 0.3s linear;
+}

@@ -1,0 +1,67 @@
+.category-list-item {
+  position: relative;
+}
+
+.category-list-item::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  top: 1.5rem;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(19, 204, 143);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.category-list-item:hover::after{
+ opacity: 1;
+}
+
+.splide .splide__pagination {
+ transform: translateY(20px);
+}
+
+.splide .splide__pagination button {
+  border: 1px solid black;
+ background: #000000;
+}
+
+.splide .splide__pagination .is-active{
+  background: #fff;
+}
+
+/* .splide__arrows{
+  display: none;
+  
+}
+
+.splide:hover .splide__arrows{
+  display: block;
+} */
+
+
+
+.splide__arrows button {
+  background: #00000087;
+  width: 40px;
+  height: 40px;
+  border-radius: 0.2rem;
+  right: 0rem;
+}
+
+.splide__arrows button svg{
+  fill: white;
+}
+
+.splide__arrows .splide__arrow--prev{
+  left: 1.2rem;
+}
+
+.splide__track .splide__pagination .splide__pagination__page:active{
+  bottom: 0;
+}
+
+
+

@@ -1,0 +1,44 @@
+.shadow_input {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 34px 0px;
+}
+.input-with-send-icon {
+  position: relative;
+  display: inline-block;
+}
+
+.input-field {
+  /* padding: 8px 32px 8px 8px; */
+  height: 52px;
+  line-height: 17.25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  text-align: start;
+  width: 303.75px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 12px;
+  width: 100%;
+}
+.input-field:focus-visible {
+  outline: none;
+}
+
+.send-button {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.send-icon {
+  width: 20px;
+  height: 20px;
+  /* fill: currentColor; */
+  color: black;
+
+}

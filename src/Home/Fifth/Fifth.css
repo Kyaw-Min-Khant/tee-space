@@ -1,0 +1,36 @@
+.shadow_custom {
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.08);
+  transition: .4s all ease-in-out;
+}
+
+.shadow_custom:hover{
+      box-shadow: 0 15px 50px rgba(0, 0, 0, 0.08);
+      transform: translateY(-10px);
+}
+
+.bg-img{
+  background-image: url('../HomeImg/last/wave-bg-1.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.card-review{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  transition: .3s all;
+}
+
+.card-review:hover{
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.08);
+  transform: translateY(-18px);
+}
+
+.left-img-fifth{
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+
+.left-img-fifth:hover{
+  transform: scale(1.03);
+}
